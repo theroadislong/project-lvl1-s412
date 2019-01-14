@@ -1,20 +1,24 @@
 {
   "name": "braingames-dunaev",
   "version": "1.2.0",
-  "description": "",
-  "main": "index.js",
+  "description": "this console game make you smarter",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "console game",
+    "brain games",
+    "hexlet"
+  ],
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
   "files": [
     "dist"
   ],
-  "author": "",
+  "author": "Dunaev Artem",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
