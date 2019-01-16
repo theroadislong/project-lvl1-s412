@@ -5,3 +5,11 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/270b407fcf0f44e3ce1c/maintainability)](https://codeclimate.com/github/theroadislong/project-lvl1-s412/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/270b407fcf0f44e3ce1c/test_coverage)](https://codeclimate.com/github/theroadislong/project-lvl1-s412/test_coverage)
+
+## How to install Brain-Games
+
+[![asciicast](https://asciinema.org/a/ivPA9mUlDxtuOKFawcEXZ4BsS.svg)](https://asciinema.org/a/ivPA9mUlDxtuOKFawcEXZ4BsS)
+
+## How to play Brain-Even game
+
+[![asciicast](https://asciinema.org/a/fusQCLQzzHFTslIxcboox98iF.svg)](https://asciinema.org/a/fusQCLQzzHFTslIxcboox98iF)
