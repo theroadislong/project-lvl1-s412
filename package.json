@@ -1,6 +1,6 @@
 {
   "name": "braingames-dunaev",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "this console game make you smarter",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,8 @@
     "hexlet"
   ],
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
