@@ -13,3 +13,7 @@
 ## How to play Brain-Even game
 
 [![asciicast](https://asciinema.org/a/fusQCLQzzHFTslIxcboox98iF.svg)](https://asciinema.org/a/fusQCLQzzHFTslIxcboox98iF)
+
+## How to play Brain-Calc game
+
+[![asciicast](https://asciinema.org/a/2r4LQ2csVt617MNvoFl1l3PIv.svg)](https://asciinema.org/a/2r4LQ2csVt617MNvoFl1l3PIv)
