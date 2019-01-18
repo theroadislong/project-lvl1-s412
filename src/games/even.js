@@ -15,6 +15,6 @@ const runGameEven = () => {
   return { question, rightAnswer };
 };
 
-gameProcess(description);
+gameProcess(description, runGameEven);
 
 export default runGameEven;

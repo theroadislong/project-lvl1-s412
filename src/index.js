@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-import runGameEven from './games/even';
 
 const gameRounds = 3;
 
@@ -20,7 +19,7 @@ const getResult = (rightAnswer, userAnswer, userName) => {
   }
 };
 
-const gameProcess = (description = '') => {
+const gameProcess = (description = '', runGameEven) => {
   const userName = greetingUser(description);
   for (let i = 1; i <= gameRounds; i += 1) {
     const { question, rightAnswer } = runGameEven();
