@@ -24,7 +24,7 @@ const getRandomFunction = arr => arr[Math.floor(Math.random() * arr.length)];
 
 const description = 'What is the result of the expression?';
 
-const runGameCalc = () => {
+const calcGameData = () => {
   const first = getRandomNumber(minNumber, maxNumber);
   const second = getRandomNumber(minNumber, maxNumber);
   const randSymbol = getRandomFunction(arrOfFunctions);
@@ -33,6 +33,6 @@ const runGameCalc = () => {
   return { question, rightAnswer };
 };
 
-gameProcess(description, runGameCalc);
+const runGameCalc = () => gameProcess(description, calcGameData);
 
 export default runGameCalc;

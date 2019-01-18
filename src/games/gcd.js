@@ -14,7 +14,7 @@ const gcd = (a, b) => {
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-const runGameGcd = () => {
+const gcdGameData = () => {
   const first = getRandomNumber(minNumber, maxNumber);
   const second = getRandomNumber(minNumber, maxNumber);
   const question = `${first} ${second}`;
@@ -22,6 +22,6 @@ const runGameGcd = () => {
   return { question, rightAnswer };
 };
 
-gameProcess(description, runGameGcd);
+const runGameGcd = () => gameProcess(description, gcdGameData);
 
 export default runGameGcd;

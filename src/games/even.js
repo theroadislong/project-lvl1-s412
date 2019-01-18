@@ -9,12 +9,12 @@ const getAnswer = num => (isEven(num) ? 'yes' : 'no');
 
 const description = 'Answer "yes" if number even otherwise answer "no".';
 
-const runGameEven = () => {
+const evenGameData = () => {
   const question = getRandomNumber(minNumber, maxNumber);
   const rightAnswer = getAnswer(question);
   return { question, rightAnswer };
 };
 
-gameProcess(description, runGameEven);
+const runGameEven = () => gameProcess(description, evenGameData);
 
 export default runGameEven;

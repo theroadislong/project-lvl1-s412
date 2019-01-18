@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { greetingUser } from '..';
+import { sayHello } from '..';
 
-greetingUser();
+sayHello();
