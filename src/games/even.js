@@ -1,5 +1,5 @@
 import getRandomNumber from '../utils';
-import { gameProcess } from '..';
+import gameProcess from '..';
 
 const minNumber = 0;
 const maxNumber = 10;
@@ -15,6 +15,4 @@ const evenGameData = () => {
   return { question, rightAnswer };
 };
 
-const runGameEven = () => gameProcess(description, evenGameData);
-
-export default runGameEven;
+export default () => gameProcess(description, evenGameData);

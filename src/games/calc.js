@@ -1,5 +1,5 @@
 import getRandomNumber from '../utils';
-import { gameProcess } from '..';
+import gameProcess from '..';
 
 const minNumber = 0;
 const maxNumber = 10;
@@ -19,20 +19,18 @@ const obj = {
   },
 };
 
-const arrOfFunctions = ['sum', 'sub', 'mult'];
-const getRandomFunction = arr => arr[Math.floor(Math.random() * arr.length)];
+const arrOfFunctionNames = ['sum', 'sub', 'mult'];
+const getRandomFunction = arr => arr[getRandomNumber(0, arr.length - 1)];
 
 const description = 'What is the result of the expression?';
 
 const calcGameData = () => {
   const first = getRandomNumber(minNumber, maxNumber);
   const second = getRandomNumber(minNumber, maxNumber);
-  const randSymbol = getRandomFunction(arrOfFunctions);
+  const randSymbol = getRandomFunction(arrOfFunctionNames);
   const question = `${first} ${obj[randSymbol].symbol} ${second}`;
   const rightAnswer = obj[randSymbol].func(first, second).toString();
   return { question, rightAnswer };
 };
 
-const runGameCalc = () => gameProcess(description, calcGameData);
-
-export default runGameCalc;
+export default () => gameProcess(description, calcGameData);

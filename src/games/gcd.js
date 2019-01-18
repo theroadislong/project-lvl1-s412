@@ -1,5 +1,5 @@
 import getRandomNumber from '../utils';
-import { gameProcess } from '..';
+import gameProcess from '..';
 
 const minNumber = 0;
 const maxNumber = 100;
@@ -22,6 +22,4 @@ const gcdGameData = () => {
   return { question, rightAnswer };
 };
 
-const runGameGcd = () => gameProcess(description, gcdGameData);
-
-export default runGameGcd;
+export default () => gameProcess(description, gcdGameData);
