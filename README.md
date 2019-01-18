@@ -17,3 +17,7 @@
 ## How to play Brain-Calc game
 
 [![asciicast](https://asciinema.org/a/2r4LQ2csVt617MNvoFl1l3PIv.svg)](https://asciinema.org/a/2r4LQ2csVt617MNvoFl1l3PIv)
+
+## How to play Brain-Gcd game
+
+[![asciicast](https://asciinema.org/a/BGGxNWr55XdtJrG8LMUgJxtBz.svg)](https://asciinema.org/a/BGGxNWr55XdtJrG8LMUgJxtBz)
