@@ -13,10 +13,11 @@ const greetingUser = (description = '') => {
 const getResult = (rightAnswer, userAnswer, userName) => {
   if (rightAnswer === userAnswer) {
     console.log('Correct!');
-  } else {
-    console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}"`);
-    console.log(`Let's try again, ${userName}!`);
+    return true;
   }
+  console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}"`);
+  console.log(`Let's try again, ${userName}!`);
+  return false;
 };
 
 const gameProcess = (description = '', runGameEven) => {
@@ -24,7 +25,9 @@ const gameProcess = (description = '', runGameEven) => {
   for (let i = 1; i <= gameRounds; i += 1) {
     const { question, rightAnswer } = runGameEven();
     const userAnswer = readlineSync.question(`Question: ${question} `);
-    getResult(rightAnswer, userAnswer, userName);
+    if (!getResult(rightAnswer, userAnswer, userName)) {
+      return;
+    }
   }
   console.log(`Congratulations, ${userName}!`);
 };
