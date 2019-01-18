@@ -1,10 +1,11 @@
 import readlineSync from 'readline-sync';
+import runGameEven from './games/even';
 
 const gameRounds = 3;
 
-const greetingUser = (rules = '') => {
+const greetingUser = (description = '') => {
   console.log('Welcome to the Brain Games!');
-  console.log(rules);
+  console.log(description);
   const userName = readlineSync.question('May I have your name? : ');
   console.log(`Hello, ${userName}!`);
   return userName;
@@ -19,9 +20,11 @@ const getResult = (rightAnswer, userAnswer, userName) => {
   }
 };
 
-const gameProcess = (rules = '', rightAnswer, userAnswer) => {
-  const userName = greetingUser(rules);
+const gameProcess = (description = '') => {
+  const userName = greetingUser(description);
   for (let i = 1; i <= gameRounds; i += 1) {
+    const { question, rightAnswer } = runGameEven();
+    const userAnswer = readlineSync.question(`Question: ${question} `);
     getResult(rightAnswer, userAnswer, userName);
   }
   console.log(`Congratulations, ${userName}!`);

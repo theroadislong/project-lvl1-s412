@@ -27,12 +27,12 @@ const first = getRandomNumber(minNumber, maxNumber);
 const second = getRandomNumber(minNumber, maxNumber);
 const randSymbol = getRandomFunction(arrOfFunctions);
 const question = `${first} ${obj[randSymbol].symbol} ${second}`;
+const description = 'What is the result of the expression?';
 
 const runGameCalc = () => {
-  const rules = 'What is the result of the expression?';
   const rightAnswer = obj[randSymbol].func(first, second).toString();
   const userAnswer = readlineSync.question(`Question: ${question} `);
-  gameProcess(rules, rightAnswer, userAnswer);
+  gameProcess(description, rightAnswer, userAnswer);
 };
 
 export default runGameCalc;
