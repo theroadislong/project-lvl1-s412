@@ -1,7 +1,10 @@
-#brain-games
+# Проект brain-games
 
 В рамках проекта реализован набор мини-игр, запускаемых из консоли.
-`sudo npm i -g braingames-dunaev`
+
+```
+sudo npm i -g braingames-dunaev
+```
 
 [![Build Status](https://travis-ci.org/theroadislong/project-lvl1-s412.svg?branch=master)](https://travis-ci.org/theroadislong/project-lvl1-s412)
 
