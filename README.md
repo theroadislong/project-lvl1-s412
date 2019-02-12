@@ -14,24 +14,24 @@ sudo npm i -g braingames-dunaev
 
 ## How to install brain-games
 
-[![asciicast](https://asciinema.org/a/ivPA9mUlDxtuOKFawcEXZ4BsS.svg)](https://asciinema.org/a/ivPA9mUlDxtuOKFawcEXZ4BsS)
+[![asciicast](https://asciinema.org/a/rdZhriqaqTg21x68QKaGJPrlA.svg)](https://asciinema.org/a/rdZhriqaqTg21x68QKaGJPrlA)
 
 ## How to play brain-even game
 
-[![asciicast](https://asciinema.org/a/fusQCLQzzHFTslIxcboox98iF.svg)](https://asciinema.org/a/fusQCLQzzHFTslIxcboox98iF)
+[![asciicast](https://asciinema.org/a/lC56q2tRg6sjnEsUIQlxiPHpf.svg)](https://asciinema.org/a/lC56q2tRg6sjnEsUIQlxiPHpf)
 
 ## How to play brain-calc game
 
-[![asciicast](https://asciinema.org/a/2r4LQ2csVt617MNvoFl1l3PIv.svg)](https://asciinema.org/a/2r4LQ2csVt617MNvoFl1l3PIv)
+[![asciicast](https://asciinema.org/a/JBR8YGgJBBgiUQ7OBihaEWnm0.svg)](https://asciinema.org/a/JBR8YGgJBBgiUQ7OBihaEWnm0)
 
 ## How to play brain-gcd game
 
-[![asciicast](https://asciinema.org/a/BGGxNWr55XdtJrG8LMUgJxtBz.svg)](https://asciinema.org/a/BGGxNWr55XdtJrG8LMUgJxtBz)
+[![asciicast](https://asciinema.org/a/ubliFrY6bo1l5HA1FCwtBtz1T.svg)](https://asciinema.org/a/ubliFrY6bo1l5HA1FCwtBtz1T)
 
 ## How to play brain-progression game
 
-[![asciicast](https://asciinema.org/a/Ba5DKupG6oSciAUlzg2xGRywX.svg)](https://asciinema.org/a/Ba5DKupG6oSciAUlzg2xGRywX)
+[![asciicast](https://asciinema.org/a/80YWZXgxWCuec1W9d6qHv1D64.svg)](https://asciinema.org/a/80YWZXgxWCuec1W9d6qHv1D64)
 
 ## How to play brain-prime game
 
-[![asciicast](https://asciinema.org/a/Z2JfIxh3c1zsZsAdXSKVRa6q3.svg)](https://asciinema.org/a/Z2JfIxh3c1zsZsAdXSKVRa6q3)
+[![asciicast](https://asciinema.org/a/fZr0C25Qa9ti8hNzeokDcRfCc.svg)](https://asciinema.org/a/fZr0C25Qa9ti8hNzeokDcRfCc)
